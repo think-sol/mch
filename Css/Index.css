@@ -18,10 +18,10 @@
 
 .parallax {
     /* The image used */
-    background-image: url("../Images/parallaxImage.jpg");
+    background-image: url("../Images/parallaxImage2.jpg");
   
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 600px; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -67,7 +67,7 @@
 
 .formula-container .formula-section .box .formula-box img{
 
-    width:100px;
+    width:90px;
     transform: rotate(-45deg); 
 }
 
@@ -131,6 +131,9 @@
 }
 @media(max-width:576px)
 {
+    .carousel-caption h1{
+        font-size: 30px;
+    }
     .about-section .about-body{
         padding:20px;
     }

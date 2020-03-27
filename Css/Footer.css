@@ -1,6 +1,5 @@
 .footer-container{
-    background-color: black;
-    padding:30px;
+    padding:50px;
 }
 .footer-container .container .footer-image{
     display: flex;

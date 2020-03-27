@@ -16,7 +16,13 @@
   </head>
   <body>
     <?php include("./Navbar.php") ?>
-    <div style="background-color:red;height:800px">Hello Contact</div>
+    <div>
+        <div class="row">
+            <div class="col-sm-12">
+              <img scr="" />
+            </div>
+        </div>  
+    </div>
 
 
     <?php include("./Footer.php") ?>

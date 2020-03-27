@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./Css/Index.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/Navbar.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/Footer.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/Index.css">
+    <link rel="stylesheet" href="./Css/Navbar.css">
+    <link rel="stylesheet" href="./Css/Footer.css">
 
     <title>Hello, world!</title>
   </head>
@@ -31,19 +31,19 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                   <img class="d-block w-100" src="./Images/carousel1.jpg" style="height:600px;opacity:0.4"  alt="First slide">
-                  <div class="carousel-caption d-none d-md-block">
+                  <div class="carousel-caption">
                     <h1 class="animated bounceInLeft delay-1ms">Government Affairs</h1>
                   </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="./Images/carousel2.jpg" style="height:600px;opacity:0.4" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h1 class="animated fadeIn delay-1s">Public Relations</h1>
+                <div class="carousel-caption ">
+                    <h1 class="animated fadeIn delay-1ms">Public Relations</h1>
                 </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src="./Images/carousel3.jpg" style="height:600px;opacity:0.4" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption">
                     <h1 class="animated bounceInRight delay-1ms">Strategic Planning</h1>
                 </div>
               </div>
@@ -77,7 +77,7 @@
         <div class="parallax"></div>
 
         <div style="background-color:#eeeeee">
-          <div class="container formula-container" style="padding-top:20px;padding-bottom:50px">
+          <div class="container formula-container" style="padding-top:50px;padding-bottom:10px">
             <div class="row">
                 <div class="col-sm-12">
                   <h2 data-aos="fade-right" data-aos-duration="1200" style="color:#1F9D56">OUR GOAL:</h2>
@@ -94,7 +94,7 @@
                   <div style="display:flex;align-items:center;justify-content:space-between;margin-top:50px">
                         <div data-aos="fade-in-left" data-aos-duration="1400" class="box">
                           <div class="formula-box" title="Advocacy" data-toggle="collapse" href="#shout" role="button" aria-expanded="false" aria-controls="shout">
-                              <img src="./Images/shout.png" />
+                              <img src="./Images/advocacy.png" />
                           </div>
                           <p>Advocacy</p>
                         </div>
@@ -115,7 +115,7 @@
                         <h1 data-aos="fade-in-left" data-aos-duration="2400">=</h1>
                         <div data-aos="fade-in-left" data-aos-duration="2600" class="box">
                           <div class="formula-box" title="Innovation">
-                            <img src="./Images/innovation.png" />
+                            <img src="./Images/inno.png" />
                           </div>
                           <p>Innovation</p>
                         </div>
@@ -171,10 +171,14 @@
           <div class="container-fluid clients-and-expertise-section">
           <div class="row clients-and-expertise-body" style="margin-bottom:30px">
               <div class="col-sm-6">
+                  <a href="./Expertise.php"> 
                     <img data-aos='fade-right' data-aos-easing="ease" data-aos-duration="1500" src="./Images/expertise.png" class="image"/>
+                  </a>
               </div>
               <div class="col-sm-6" style="display:flex;justify-content:flex-end">
+                  <a href="./Client.php">
                     <img data-aos="fade-left" data-aos-easing="ease" data-aos-duration="1500" src="./Images/clients.png" class="image" />
+                  </a>
               </div>
           </div>
           </div>

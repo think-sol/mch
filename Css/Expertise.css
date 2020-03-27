@@ -1,0 +1,18 @@
+.expertise-container .expertise-header{
+    background-color:black;
+    width:100%;
+    position:relative;
+    text-align:center;
+}
+.expertise-container .expertise-header h1{
+    position:absolute;
+    top:40%;
+    left:40%;
+    color:white;
+    font-size:60px;
+}
+.expertise-container .expertise-header img{
+    width:100%;
+    height:350px;
+    opacity:0.3
+}
